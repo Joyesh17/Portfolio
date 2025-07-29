@@ -140,7 +140,7 @@ img{
 }
 
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-size: 70px auto,600px auto;
     /* background-position: left top, right bottom; */
