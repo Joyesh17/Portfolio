@@ -378,3 +378,31 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+
+/* ------------responsive media query---------------*/
+
+.hide{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .skill-card{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .what-i-do{
+        margin:0px;
+        padding: 20px;
+    }
+    .what-i-do-description{
+        align-items: center;
+        text-align: left;
+    }
+    .skill-cards{
+        flex-direction: column;
+        align-items: center;
+        margin:0px;
+    }
+}
